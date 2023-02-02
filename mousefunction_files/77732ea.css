@@ -1,0 +1,30 @@
+.px-balanced-text {
+	width: 100%;
+}
+.px-balanced-text__inner {
+	display: inline-block;
+}
+.countdown-number {
+	margin: 0px; width: 1ch; height: 1em; color: inherit; overflow: visible; font-weight: inherit; white-space: nowrap; position: relative; background-image: none;
+}
+.countdown-number__hidden {
+	font-size: 1em; position: relative; opacity: 0;
+}
+.countdown-number__inner {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.countdown-number__numbers {
+	left: 50%; width: 100%; height: 100%; font-size: 1em; position: absolute;
+}
+.countdown-number__numbers > span {
+	transition:opacity 0.4s; left: 0px; width: 100%; height: 100%; text-align: center; display: block; position: absolute;
+}
+.countdown {
+	height: 1em; color: rgb(255, 255, 255); display: flex; pointer-events: none; justify-content: center; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; user-select: none;
+}
+.px-icon {
+	color: inherit; line-height: 1; display: inline-block;
+}
+.px-svg {
+	color: inherit; line-height: 1; display: inline-block;
+}

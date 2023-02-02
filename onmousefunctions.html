@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css">
+        *{
+            border: 2px solid red;
+            margin: 10px;
+        }
+        .abc {
+            color: blue;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<div onmouseenter="work()" onmouseleave="a()" onclick="b()" ondblclick="c()" id="abc"> <h1>"hello"</h1></div>
+    <script>
+        function work(){
+document.getElementById("abc").innerHTML="rishita";
+        }
+
+         function a(){
+document.getElementById("abc").innerHTML="mouse leave";
+        }
+         function b(){
+document.getElementById("abc").innerHTML="onclick";
+        }
+         function c(){
+document.getElementById("abc").innerHTML="dblclick";
+        }
+        
+    </script>
+
+</body>
+</html>
+ 

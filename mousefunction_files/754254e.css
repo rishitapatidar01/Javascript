@@ -1,0 +1,126 @@
+.ie-download {
+	text-align: center; font-family: SegoeUI;
+}
+.ie-download__page-heading {
+	font-family: SegoeUI; font-size: 28px; font-weight: 600;
+}
+.ie-download__page-intro {
+	margin: 10px auto 0px; font-family: SegoeUI; font-size: 18px; max-width: 32em;
+}
+.ie-download__page-download {
+	margin: 0px auto; padding: 0.66em 2em; border-radius: 4px; height: auto; color: rgb(255, 255, 255); font-family: SegoeUI; font-size: 18px; display: inline-block; box-shadow: 0px 2px 5px rgba(0,0,0,0.1); background-color: rgb(1, 103, 184);
+}
+.ie-download__page-download:hover {
+	background-color: rgb(0, 84, 148);
+}
+.ie-download__page-download:active {
+	box-shadow: 0px 0px 0px transparent; background-color: rgb(0, 72, 128);
+}
+.ie-download__page-privacy {
+	margin: 10px auto; text-align: right; max-width: 860px;
+}
+.ie-download__page-privacy a {
+	color: rgb(0, 103, 184); text-decoration: underline;
+}
+.ie-download__eula {
+	margin: 40px auto 20px; padding: 30px; border-radius: 6px; border: 1px solid rgb(187, 187, 187); border-image: none; height: auto; text-align: left; color: rgb(104, 104, 104); overflow: auto; font-family: inherit; font-size: 15px; -ms-overflow-x: hidden; -ms-overflow-y: scroll; max-height: 300px; max-width: 860px; flex-grow: 0; background-color: rgb(242, 242, 242);
+}
+.ie-download__eula h1 {
+	padding: 0.5em 0px; font-size: 1em; font-weight: 700; display: block;
+}
+.ie-download__eula h2 {
+	padding: 0.5em 0px; font-size: 1em; font-weight: 700; display: block;
+}
+.ie-download__eula h3 {
+	padding: 0.5em 0px; font-size: 1em; font-weight: 700; display: block;
+}
+.ie-download__eula h4 {
+	padding: 0.5em 0px; font-size: 1em; font-weight: 700; display: block;
+}
+.ie-download__eula h2 {
+	display: inline;
+}
+.ie-download__eula h3 {
+	display: inline;
+}
+.ie-download__eula h4 {
+	display: inline;
+}
+.ie-download__eula hr {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(16, 16, 16); margin: 0.5em 0px; padding: 0px; border-image: none; height: 0px;
+}
+.ie-download__eula .strong {
+	font-weight: 700;
+}
+.ie-download__eula strong {
+	font-weight: 700;
+}
+.ie-download__eula ol {
+	list-style: none; counter-reset: counter-lev-1;
+}
+.ie-download__eula ol li {
+	counter-increment: counter-lev-1;
+}
+.ie-download__eula ol li::before {
+	font-weight: 700; content: counter(counter-lev-1) ". ";
+}
+.ie-download__eula ol ol {
+	list-style: none; counter-reset: counter-lev-2;
+}
+.ie-download__eula ol ol li {
+	counter-increment: counter-lev-2;
+}
+.ie-download__eula ol ol li::before {
+	font-weight: 700; content: counter(counter-lev-1) "." counter(counter-lev-2) ". ";
+}
+.ie-download__eula ol ol ol {
+	list-style: none; counter-reset: counter-lev-3;
+}
+.ie-download__eula ol ol ol li {
+	counter-increment: counter-lev-3;
+}
+.ie-download__eula ol ol ol li::before {
+	font-weight: 700; content: counter(counter-lev-1) "." counter(counter-lev-2) "." counter(counter-lev-3) ". ";
+}
+.ie-download__eula ol ol ol ol {
+	list-style: lower-alpha;
+}
+.ie-download__eula ol ol ol ol li {
+	margin-left: 1.5em;
+}
+.ie-download__eula ol ol ol ol li::before {
+	content: none !important;
+}
+.ie-download__eula ol ol ol ol ol {
+	list-style: lower-roman;
+}
+.ie-download__eula ol ol ol ol ol li {
+	margin-left: 1.5em;
+}
+.ie-download__eula ol ol ol ol ol li::before {
+	content: none !important;
+}
+.ie-download__eula ol.alpha {
+	list-style: lower-alpha;
+}
+.ie-download__eula ol.alpha > li {
+	margin-left: 1.5em;
+}
+.ie-download__eula ol.alpha > li::before {
+	content: none !important;
+}
+.ie-download__eula ol.roman {
+	list-style: lower-roman;
+}
+.ie-download__eula ol.roman > li {
+	margin-left: 1.5em;
+}
+.ie-download__eula ol.roman > li::before {
+	content: none !important;
+}
+.ie-download__eula li > p:first-child {
+	display: inline;
+}
+.ie-download__eula li > p:first-child + * {
+	margin-top: 0.8em;
+}
