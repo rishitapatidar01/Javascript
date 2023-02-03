@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p>
+		firstnumber: <input id="t" value=" "/>
+	</p>
+	<p>
+		secondnumber:<input id="t1" value=" "/>
+
+	</p>
+	<button onclick="add()">add them</button>
+	<button onclick="substract()">substract them</button>
+	<button onclick="multiply()">multiply them</button>
+	<button onclick="divide()">divide them</button>
+
+	<p>
+		sum=<input id="ans"/>
+		
+	</p>
+	<script type="text/javascript">
+		function add(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById("t").value)
+		num2=parseInt(document.getElementById("t1").value)
+			sum=num1+num2;
+			document.getElementById("ans").value=sum;
+		}
+		function substract(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById("t").value)
+		num2=parseInt(document.getElementById("t1").value)
+			sum=num1-num2;
+			document.getElementById("ans").value=sum;
+		}
+		function multiply(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById("t").value)
+		num2=parseInt(document.getElementById("t1").value)
+			sum=num1*num2;
+			document.getElementById("ans").value=sum;
+		}
+		function divide(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById("t").value)
+		num2=parseInt(document.getElementById("t1").value)
+			sum=num1/num2;
+			document.getElementById("ans").value=sum;
+		}
+
+
+	</script>
+
+</body>
+</html>
