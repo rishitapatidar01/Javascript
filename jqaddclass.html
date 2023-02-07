@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<style type="text/css">
+
+		div{
+			background-color: blue;
+			padding:50px;
+			margin:2px solid green;
+		}
+		.different{
+			border:50px solid pink;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<div></div>
+	<script type="text/javascript">
+			$(document).ready (function(){
+
+			$("div").click(function(){
+			$(this).addClass("different");
+
+		})
+	})
+	</script>
+
+</body>
+</html>
