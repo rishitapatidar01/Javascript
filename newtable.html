@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<style type="text/css">
+	table{
+		font-family:sans-sarif;
+		border-collapse:collapse ;
+		width:100%;
+		}
+
+td,th{
+	border:2px solid black;
+	text-align:center;
+}
+tr:nth-child(even){
+	background-color:red;
+
+}
+tr:nth-child(odd){
+	background-color:lightblue ;
+}
+
+</style>
+</head>
+<body>
+	<input id="r" onkeyup="fun()" type="text" placeholder="search" style="height:20px;width:100px;">
+	<table>
+		<thead>
+
+
+			<tr style="background-color:springgreen;">
+				<th>FirstName</th>
+				<th>LastName</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+			<tbody id="mytable">
+				<tr>
+					<td>Rishita</td>
+					<td>Patidar</td>
+					<td>rishitapatidar2003@gmail.com</td>
+					</tr>
+					<tr>
+						<td>Anjali</td>
+						<td>Patidar</td>
+						<td>anjalipatidar@gmail.com</td>
+					</tr>
+				<tr>
+						<td>Anil</td>
+						<td>Gehlot</td>
+						<td>anilgehlot2000@gmail.com</td>
+					</tr>
+					
+
+
+			
+		
+	</tbody>
+	</table>
+	<script>
+	function fun(){
+		let name=document.getElementById("r").value
+		document.getElementById("mytable");
+
+	}
+</script>
+
+</body>
+</html>
